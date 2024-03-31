@@ -1,0 +1,27 @@
+.message-container {
+  display: flex;
+  align-items: center;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+.light-des {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 30px;
+}
+.message-header {
+  margin-top: 2rem;
+  color: #192f59;
+  font-size: 40px;
+  font-weight: 600;
+  font-family: "Lato", sans-serif;
+  margin-right: 2rem;
+}
+.messageVideo {
+  margin-top: 1rem;
+  width: 100%;
+  max-width: 600px;
+  margin-top: 5rem;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

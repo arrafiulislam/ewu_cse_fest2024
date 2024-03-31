@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+:root {
+  --black: #0e0e0e;
+  --white: #ffffff;
+  --white-grey: #c8c8c881;
+  --grey: #939393;
+  --lato-font: "Lato", sans-serif;
+  --playfair-font: "Playfair Display", serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--playfair-font);
+  font-size: 10px;
+  color: var(--black);
+  background-color: var(--white);
+}
+
+/* SECTION */
+
+.section {
+  margin-bottom: 4rem;
+}
+
+/* CONTAINER */
+.container {
+  margin: 0 auto;
+  max-width: 1400px;
+  /* padding: 2rem 2rem; */
+}
+
+/* MARGIN */
+.mb-1x {
+  margin-bottom: 1rem;
+}
+.mb-2x {
+  margin-bottom: 2rem;
+}
+.mt-1x {
+  margin-bottom: 1rem;
+}
+.mt-2x {
+  margin-bottom: 2rem;
+}
+
+/* BUTTON */
+.btn {
+  font-family: var(--playfair-font);
+  font-size: 1rem;
+  padding: 0.6rem 1rem;
+  border: none;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.btn-primary {
+  color: var(--white);
+  background-color: var(--black);
+}
+
+/* HEADING */
+
+h1 {
+  font-size: 3.4rem;
+  font-weight: 700;
+  line-height: 3.5rem;
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+h5 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+h6 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 400;
+}
+@media screen and (max-width: 700px) and (min-width: 550px) {
+  h1 {
+    font-size: 2.7rem;
+  }
+  h3 {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+}
+@media screen and (max-width: 1150px) and (min-width: 500px) {
+  h1 {
+    font-size: 2.7rem;
+    font-weight: 700;
+    line-height: 2.5rem;
+  }
+  h2 {
+    font-size: 2.3rem;
+    font-weight: 700;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .section {
+    margin-bottom: 0;
+  }
+  h1 {
+    font-size: 2.2rem;
+    line-height: 2rem;
+  }
+  h2 {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+}
