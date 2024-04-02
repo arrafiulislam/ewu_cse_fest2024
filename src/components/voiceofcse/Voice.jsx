@@ -19,7 +19,6 @@ const Voice = () => {
         <video
           src={messageVideo}
           controls
-          autoPlay
           className="messageVideo message-container"
         ></video>
       </div>

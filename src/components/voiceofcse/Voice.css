@@ -25,3 +25,26 @@
   border-radius: 20px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+@media screen and (max-width: 1400px) and (min-width: 1150px) {
+  .message-container {
+    padding: 2rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .message-container {
+    flex-direction: column;
+  }
+  .light-des {
+    font-size: 18px;
+    text-align: center;
+  }
+  .message-header {
+    font-size: 30px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 1rem;
+  }
+  .messageVideo {
+    padding: 1rem;
+  }
+}

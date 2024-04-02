@@ -15,7 +15,13 @@ const Hero = () => {
             computer science excellence &#8221;
           </p>
         </div>
-        <video src={introVideo} controls className="hero-video"></video>
+        <video
+          src={introVideo}
+          controls
+          muted
+          autoPlay
+          className="hero-video"
+        ></video>
       </div>
     </div>
   );

@@ -107,10 +107,13 @@ const Event = () => {
           🎉 Spread the word, tag your friends, and together, let's make CSE
           FEST 2024 an unforgettable celebration of the limitless possibilities
           of the digital era!
+          <br />
+          <p className="event-details">
+            <span className="venue">VENUE:</span> East West University
+          </p>
           <br /> <br />
           #EastWestUniversity #TechFestival #EWUCSEFEST2024 #Valorous #fifa
-          <br />
-          <br />
+          <br /> <br />
         </p>
         <p className="registration-segmant">Hurry Up! Register Now!</p>
         <button className="reg-btn">Register Now</button>
